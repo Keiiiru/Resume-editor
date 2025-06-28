@@ -1,0 +1,38 @@
+/* DropDownButton.module.css */
+.dropdown-button {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button__toggle {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.dropdown-button__menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 150px;
+  z-index: 1000;
+}
+
+.dropdown-button__item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-button__item:hover,
+.dropdown-button__item:focus {
+  background-color: #eee;
+  outline: none;
+}
